@@ -10,7 +10,7 @@
 
 1. No colour changed, can be used with your nitro theme (a little buggy) or day theme.
 2. Only background added, nothing more!
-3. Custom backgroud choice! Image or gif, you can even choose blur and opacity.
+3. Custom background choice! Image or gif, you can even choose blur and opacity.
 
 ## Installation :
 
