@@ -2,7 +2,7 @@
 
 # Rounded Discord
 
-[![Preview](https://img.shields.io/badge/Preview-5865F2?logo=Discord&style=for-the-badge&labelColor=black)](https://gibbu.github.io/ThemePreview/?file=https://anthonus-games.bandicoot-canopus.ts.net/perso/Discord-themes/ANTHONUS-Background.css)
+[![Preview](https://img.shields.io/badge/Preview-5865F2?logo=Discord&style=for-the-badge&labelColor=black)](https://gibbu.github.io/ThemePreview/?file=https://anthonuss.github.io/DiscordBackground/ANTHONUS-Background.css)
 
 </div><br/>
 
@@ -14,7 +14,7 @@
 
 ## Installation :
 
-use this [link](https://anthonus-games.bandicoot-canopus.ts.net/perso/Discord-themes/ANTHONUS-Background.css) or add the latest release on your `theme` folder.
+use this [link](https://anthonuss.github.io/DiscordBackground/ANTHONUS-Background.css) or add the latest release on your `theme` folder.
 
 ## ToDo
 
