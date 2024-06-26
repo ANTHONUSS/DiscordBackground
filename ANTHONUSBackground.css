@@ -1,0 +1,32 @@
+/* ANTHONUS Background */
+
+.chatContent_a7d72e::before,
+.wrapper_cdfd51::before,
+.wrapper_b211c6::before,
+.cozy_b211c6::before,
+.peopleColumn_c2739c::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(rgba(0, 0, 0, var(--opacity-amount)), rgba(0, 0, 0, var(--opacity-amount))), var(--background-image);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: blur(var(--blur-amount));
+}
+.chatContent_a7d72e,
+.wrapper_cdfd51,
+.wrapper_b211c6,
+.cozy_b211c6,
+.peopleColumn_c2739c {
+  position: relative;
+  backdrop-filter: blur(var(--blur-amount));
+  background-color: rgba(0, 0, 0, 0.377);
+}
+.form_a7d72e::before {
+  display: none;
+}
