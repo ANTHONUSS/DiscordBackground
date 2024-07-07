@@ -1,10 +1,9 @@
 /* ANTHONUS Background */
 
-.chatContent_a7d72e::before,
-.wrapper_cdfd51::before,
-.wrapper_b211c6::before,
-.cozy_b211c6::before,
-.peopleColumn_c2739c::before {
+
+.chatContent_a7d72e::before, /* background chat */
+.peopleColumn_c2739c::before, /* background friend list */
+.wrapper_b75bb9 { /* eradicate the fucking charging-message template (idk how to background them so i deleted them)  */
   content: "";
   position: absolute;
   top: 0;
@@ -18,15 +17,14 @@
   background-size: cover;
   filter: blur(var(--blur-amount));
 }
-.chatContent_a7d72e,
-.wrapper_cdfd51,
-.wrapper_b211c6,
-.cozy_b211c6,
-.peopleColumn_c2739c {
+.chatContent_a7d72e, /* background chat */
+.peopleColumn_c2739c { /* background friend list */
   position: relative;
   backdrop-filter: blur(var(--blur-amount));
   background-color: rgba(0, 0, 0, 0.377);
 }
-.form_a7d72e::before {
+
+/* FOR ROUNDED DISCORD EXCLUSIVE : remove grey gradient at the message-bar */
+.form_a7d72e::before{
   display: none;
 }
