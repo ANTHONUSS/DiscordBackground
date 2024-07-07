@@ -2,13 +2,13 @@
 * @name ANTHONUS Background
 * @author ANTHONUS
 * @description Add a custom background on the chat and friend list of discord !
-* @version 1.0.0
+* @version 1.0.1
 */
 
 @import url("https://anthonuss.github.io/DiscordBackground/ANTHONUSBackground-source.css");
 
 :root {
-    --background-image: url("https://anthonus-games.bandicoot-canopus.ts.net/discord-themes/bondrewd.gif"); /* Url of background image */
+    --background-image: url("https://anthonus.bandicoot-canopus.ts.net/discord-themes/bondrewd.gif"); /* Url of background image */
     --blur-amount: 2px; /* amount of background blur (recommended to be >1 for less screen artifacts) */
     --opacity-amount: 25%; /* Opacity of background-image.*/
 }
