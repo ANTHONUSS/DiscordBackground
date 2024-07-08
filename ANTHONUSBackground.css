@@ -1,0 +1,40 @@
+/* ANTHONUS Background */
+
+.chatContent_a7d72e::before,
+/* background chat */
+.peopleColumn_c2739c::before,
+/* background friend list */
+.wrapper_cdfd51::before,
+.wrapper_b75bb9::before 
+/* Background for the charging messages (still a little buggy) */
+{
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(rgba(0, 0, 0, var(--opacity-amount)), rgba(0, 0, 0, var(--opacity-amount))), var(--background-image);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: blur(var(--blur-amount));
+}
+
+.chatContent_a7d72e,
+/* background chat */
+.peopleColumn_c2739c
+/* background friend list */
+{
+  position: relative;
+  backdrop-filter: blur(var(--blur-amount));
+  background-color: rgba(0, 0, 0, 0.377);
+}
+
+.theme-dark .message_d5deea.selected_d5deea,
+.theme-dark.mouse-mode.full-motion .message_d5deea:hover 
+/* workaround for nitro themes */
+{
+  background: rgba(0, 0, 0, 0.30);
+}
