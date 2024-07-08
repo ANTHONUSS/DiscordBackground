@@ -8,7 +8,7 @@
 
 ## Feature:
 
-1. No colour changed, can be used with your nitro theme (a little buggy) or day theme.
+1. No colour changed, can be used with your nitro theme or day theme.
 2. Only background added, nothing more!
 3. Custom background choice! Image or gif, you can even choose blur and opacity.
 
@@ -18,4 +18,4 @@ use this [link](https://anthonuss.github.io/DiscordBackground/ANTHONUS-Backgroun
 
 ## ToDo
 
-- The nitro themes are still buggy.
+- Some UI elements are not present (but nothing extreme)
