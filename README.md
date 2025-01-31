@@ -15,8 +15,3 @@
 ## Installation :
 
 use this [link](https://anthonuss.github.io/DiscordBackground/ANTHONUS-Background.css) or add the latest release on your `theme` folder.
-
-## ToDo
-
-- Some UI elements are not present (but nothing extreme)
-- Light nitro themes are still buggy
