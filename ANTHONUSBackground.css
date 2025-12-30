@@ -1,47 +1,41 @@
 /* ANTHONUS Background */
 
-.chatContent_f75fb0::before,
 /* background chat */
-.peopleColumn__133bf::before
+._36d072eab2b2e737-messagesWrapper::before,
+/* chat bar */
+.f75fb00fb7356cbe-form::before, .f75fb00fb7356cbe-formWithLoadedChatInput::before,
 /* background friend list */
+._133bf5eea8e33a34-peopleColumn::before
 {
-content: "";
-position: absolute;
-top: 0;
-left: 0;
-width: 100%;
-height: 100%;
-background: linear-gradient(rgba(0, 0, 0, var(--opacity-amount)), rgba(0, 0, 0, var(--opacity-amount))), var(--background-image);
-background-attachment: fixed;
-background-position: center;
-background-repeat: no-repeat;
-background-size: cover;
-filter: blur(var(--blur-amount));
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgba(0, 0, 0, var(--opacity-amount)), rgba(0, 0, 0, var(--opacity-amount))), var(--background-image);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: blur(var(--blur-amount));
 }
 
-.chatContent_f75fb0,
 /* background chat */
-.peopleColumn__133bf
+._36d072eab2b2e737-messagesWrapper,
+/* chat bar */
+.f75fb00fb7356cbe-form, .f75fb00fb7356cbe-formWithLoadedChatInput,
 /* background friend list */
+._133bf5eea8e33a34-peopleColumn
 {
-position: relative;
-backdrop-filter: blur(var(--blur-amount));
-background-color: rgba(0, 0, 0, 0.377);
+    position: relative;
+    backdrop-filter: blur(var(--blur-amount));
+    background-color: rgba(0, 0, 0, 0.377);
 }
 
-.wrapper_d852db,
-.wrapper_fc8177
 /* workaround for charging messages */
+.d852db00c0588eb9-wrapper,
+.d852db00c0588eb9-wrapper > *
 {
-background: none;
-}
-
-
-.theme-dark .message__5126c.selected__5126c,
-.theme-dark.mouse-mode.full-motion .message__5126c:hover,
-.theme-light .message__5126c.selected__5126c,
-.theme-light.mouse-mode.full-motion .message__5126c:hover
-/* Workaround for nitro themes */
-{
-background: rgba(0, 0, 0, 0.30);
+    background: none;
 }
